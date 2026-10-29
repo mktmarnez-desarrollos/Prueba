@@ -24,3 +24,87 @@ details summary::-webkit-details-marker{display:none}
 @media(max-width:700px){#ruta .route-grid{grid-template-columns:1fr!important}#ruta .route-photo{aspect-ratio:16/10}#ruta .route-copy{padding:24px}}
 
 .stats-title{font-family:Sora, sans-serif;font-size:clamp(24px,3vw,34px);line-height:1.2;text-align:center;margin:32px 20px 4px;color:#fff}.arleen-portrait{width:64px;height:64px;flex:none;border-radius:10px;background-image:url("assets/arleen.png");background-size:210%;background-position:50% 38%}
+
+/* Optimización móvil: estos ajustes solo aplican a pantallas de 700 px o menos. */
+@media (max-width:700px){
+  html{scroll-padding-top:76px}
+  body{overflow-x:hidden}
+  header{position:sticky!important}
+  header>div{min-height:64px;padding:10px 16px!important;gap:8px!important}
+  header img{width:112px!important;height:36px!important;object-fit:contain}
+  .menu-toggle{font-size:14px;padding:9px 13px;min-height:40px}
+  header nav.is-open{padding:4px 0 8px}
+  header nav a{font-size:15px!important;padding:12px 8px}
+
+  section>div[style*="max-width: 1200px"],
+  section>.advisors-section{padding:52px 20px!important;gap:30px!important}
+  #inicio>div:first-child{padding:48px 20px 40px!important;gap:30px!important}
+  #inicio>div:first-child>div:first-child{gap:18px!important}
+  #inicio h1{font-size:clamp(34px,9vw,43px)!important;line-height:1.06!important;letter-spacing:-.035em!important}
+  #inicio>div:first-child>div:first-child>p:not(:first-child){font-size:17px!important;line-height:1.55!important}
+  #inicio .btn-main{width:100%;min-height:54px;padding:16px 18px!important;font-size:16px!important}
+  #inicio .interview-note{font-size:13px;margin-top:-8px}
+  #inicio .photo{height: min(108vw,410px)!important;border-radius:18px!important}
+  #inicio>div:first-child>div:last-child>div:last-child{left:10px!important;right:10px!important;bottom:12px!important;gap:10px!important;padding:12px!important;border-radius:13px!important}
+  #inicio>div:first-child>div:last-child>div:last-child strong{font-size:13px!important;line-height:1.35}
+  #inicio>div:first-child>div:last-child>div:last-child span{font-size:11px!important}
+  .arleen-portrait{width:48px;height:48px}
+  .stats-title{font-size:23px;margin:26px 16px 0;line-height:1.2}
+  #inicio>div:last-child>div{padding:22px 18px!important;gap:22px 10px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  #inicio>div:last-child strong{font-size:23px!important;line-height:1.1}
+  #inicio>div:last-child span{font-size:12px!important;line-height:1.35}
+
+  section div[style*="grid-template-columns: repeat(auto-fit, minmax(300px"]{grid-template-columns:minmax(0,1fr)!important}
+  #ganancias>div{gap:28px!important}
+  #ganancias h2{font-size:32px!important}
+  #ganancias p{font-size:16px!important;line-height:1.55!important}
+  #ganancias ul{gap:13px!important;font-size:15px!important;line-height:1.45!important}
+  #ganancias>div>div:last-child{padding:22px 18px!important;gap:18px!important;border-radius:18px!important}
+  #ganancias>div>div:last-child>div strong{font-size:21px!important}
+  #ganancias>div>div:last-child>div:first-child strong{font-size:23px!important}
+  #ganancias>div>div:last-child>div:nth-child(2) strong{font-size:21px!important}
+  #ganancias>div>div:last-child>div:nth-child(3)>div{padding:13px!important}
+  #ganancias>div>div:last-child>div:nth-child(3)>div span{font-size:14px!important}
+  #ganancias>div>div:last-child>p{font-size:12px!important}
+
+  .advisors-section{padding:52px 20px!important}
+  .advisors-section h2{font-size:32px!important;line-height:1.12!important;margin-bottom:26px!important}
+  .advisors-gallery{grid-template-columns:1fr!important;gap:14px!important}
+  .advisors-gallery img{height: min(78vw,330px)!important;border-radius:16px!important}
+
+  #ruta .route-grid{grid-template-columns:1fr!important;gap:14px!important}
+  #ruta .route-photo{aspect-ratio:16/9!important;max-height:220px}
+  #ruta .route-copy{padding:18px!important;gap:9px!important}
+  #ruta .route-card{border-radius:16px!important}
+  #ruta h2{font-size:31px!important}
+
+  #faq>div{padding:48px 20px!important;gap:28px!important}
+  #faq>div>div:first-child{padding:22px!important;border-radius:18px!important;gap:16px!important}
+  #faq>div>div:first-child h2{font-size:28px!important}
+  #faq>div>div:first-child ul{font-size:15px!important;line-height:1.45;gap:12px!important}
+  #faq>div>div:last-child{gap:4px!important}
+  #faq>div>div:last-child h2{font-size:28px!important;margin-bottom:8px!important}
+  details summary{font-size:15px!important;line-height:1.4;padding:17px 0;gap:8px}
+  .faq-hint{font-size:10px;white-space:normal;text-align:right;max-width:76px}
+  details p{font-size:14px!important;line-height:1.55!important;padding-right:8px}
+
+  #contacto>div{padding:58px 20px!important;gap:28px!important}
+  #contacto h2{font-size:34px!important;line-height:1.1!important}
+  #contacto p{font-size:16px!important;line-height:1.5!important}
+  #contacto>div>div:last-child{grid-template-columns:1fr!important;gap:12px!important}
+  #contacto .btn-main{padding:22px!important;border-radius:16px!important}
+  #contacto .btn-main strong{font-size:19px!important}
+  #contacto .btn-main span{font-size:14px!important}
+  footer>div{padding:24px 20px!important;gap:18px!important;align-items:flex-start!important}
+  footer>div>div{flex-wrap:wrap;gap:10px!important}
+  footer img{max-width:44%;height:auto!important}
+  footer p{font-size:11px!important;line-height:1.5!important}
+  a,button,summary{-webkit-tap-highlight-color:transparent}
+}
+@media(max-width:380px){
+  #inicio h1{font-size:33px!important}
+  #inicio>div:last-child>div{gap:18px 8px!important}
+  #inicio>div:last-child strong{font-size:21px!important}
+  #ganancias>div>div:last-child>div strong{font-size:18px!important}
+  details summary{font-size:14px!important}
+}
