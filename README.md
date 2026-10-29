@@ -1,28 +1,20 @@
-# Arennea · Reclutamiento independiente
+# Arennea · Reclutamiento · Versión 3
 
-Versión 2 · 29 de octubre de 2026
+29 de octubre de 2026
 
-Landing estática independiente. Este paquete no modifica Cloudflare, no contiene el administrador, bases de datos, claves ni seguimiento de visitas. Los botones abren Calendly. No se ha publicado el sitio.
+## Actualizar desde el navegador
+1. Descomprime este ZIP.
+2. Abre la carpeta Arennea_Reclutamiento_V3.
+3. En tu repositorio Prueba, elige Add file → Upload files.
+4. Arrastra el CONTENIDO de esta carpeta: index.html, styles.css, script.js, assets y los documentos. No subas la carpeta exterior ni el ZIP.
+5. Guarda con Commit changes y espera que GitHub Pages termine la publicación.
+6. Abre tu página y recarga con Ctrl + F5.
 
-## Abrir la propuesta
-Descomprime el ZIP y abre `index.html` en tu navegador. Mantén juntos `index.html`, `styles.css`, `script.js` y la carpeta `assets`.
+## Ajustes
+- Título «Experiencia que te respalda» encima de los cuatro contadores.
+- Arleen y la foto aportada en la pleca del comentario.
+- Comisión por venta $6,300 MXN. Una venta $6,300; dos $12,600; cuatro $25,200. Actualizado también en preguntas frecuentes.
+- Prospección: «Generas tus propios clientes».
+- Nueva imagen ilustrativa para «Tú eliges turno».
 
-## Subir a un nuevo repositorio desde el navegador
-1. Crea un repositorio llamado `arennea-reclutamiento-independiente` (privado si solo quieres guardar y revisar código).
-2. En GitHub, usa **Add file → Upload files**. Sube el CONTENIDO de esta carpeta descomprimida, incluido `assets`. No subas únicamente el ZIP.
-3. Guarda con **Commit changes**. No conectes el repositorio a Cloudflare.
-4. Para cambios futuros, descomprime la nueva entrega y sustituye los archivos indicados. Guarda una copia de la versión anterior.
-
-Este repositorio almacena código; no activa por sí solo una página pública. La publicación se configura por separado cuando se decida.
-
-## Cambios de esta versión
-- Cinco tarjetas con fotografía en «De cero a tu primera venta».
-- Fotos aportadas para capacitación, coaching individual y acompañamiento en equipo.
-- Tres imágenes ilustrativas generadas para práctica, prospección y primera venta.
-- Diseño responsive, contadores y cuadro de comisiones de $6,000 MXN conservados.
-- Pago semanal después del primer 15% del enganche; enganche total 20% (15% + 5%).
-- Sin iconos, WhatsApp ni videos; enlaces de Calendly actualizados.
-
-## Pendientes para una futura implementación
-Administrador editable y medición de clics por botón de Calendly. No están implementados aquí.
-El comentario de la pleca es un texto propuesto pendiente de validar, no un testimonio atribuido.
+Paquete completo e independiente. No incluye administrador, base de datos ni analítica. No requiere Cloudflare. Para verlo localmente, abre index.html sin mover la carpeta assets.

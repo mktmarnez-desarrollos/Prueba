@@ -6,3 +6,7 @@ Prompts: fotografía editorial horizontal 3:2 en oficina moderna de Mérida, mad
 - Práctica: asesora presenta un plano de lotificación a una pareja.
 - Prospección: asesor con laptop habla por teléfono con un prospecto.
 - Primera venta: asesora y pareja celebran una firma con un apretón de manos, sin llaves.
+
+## Versión 3
+Arleen: foto original aportada por el usuario; encuadre mediante CSS, sin modificar el rostro.
+assets/elige-turno.jpg: imagen creada con la herramienta integrada de generación de imágenes. Prompt: fotografía editorial horizontal 3:2, asesora mexicana con blazer azul marino organiza agenda junto a laptop con calendario y reloj analógico, oficina cálida, sin logos ni texto superpuesto.

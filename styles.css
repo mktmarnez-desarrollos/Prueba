@@ -22,3 +22,5 @@ details summary::-webkit-details-marker{display:none}
 #ruta .route-copy{padding:22px;display:flex;flex-direction:column;gap:12px}
 @media(min-width:701px) and (max-width:1050px){#ruta .route-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 @media(max-width:700px){#ruta .route-grid{grid-template-columns:1fr!important}#ruta .route-photo{aspect-ratio:16/10}#ruta .route-copy{padding:24px}}
+
+.stats-title{font-family:Sora, sans-serif;font-size:clamp(24px,3vw,34px);line-height:1.2;text-align:center;margin:32px 20px 4px;color:#fff}.arleen-portrait{width:64px;height:64px;flex:none;border-radius:10px;background-image:url("assets/arleen.png");background-size:210%;background-position:50% 38%}
