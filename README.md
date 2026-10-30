@@ -1,20 +1,18 @@
-# Arennea · Reclutamiento · Versión 3
+# Arennea · Reclutamiento · Versión 4
 
-29 de octubre de 2026
+## Subir esta versión a GitHub
+1. Descomprime el ZIP y abre Arennea_Reclutamiento_V4.
+2. En el repositorio Prueba, selecciona Add file → Upload files.
+3. Arrastra el contenido de la carpeta, incluidos index.html, styles.css, script.js y assets. No subas la carpeta exterior ni solo el ZIP.
+4. Confirma con Commit changes. Espera la publicación de GitHub Pages y actualiza tu sitio con Ctrl + F5.
 
-## Actualizar desde el navegador
-1. Descomprime este ZIP.
-2. Abre la carpeta Arennea_Reclutamiento_V3.
-3. En tu repositorio Prueba, elige Add file → Upload files.
-4. Arrastra el CONTENIDO de esta carpeta: index.html, styles.css, script.js, assets y los documentos. No subas la carpeta exterior ni el ZIP.
-5. Guarda con Commit changes y espera que GitHub Pages termine la publicación.
-6. Abre tu página y recarga con Ctrl + F5.
+## Cambios
+- Eliminada la pregunta de multinivel. Quedan cinco preguntas.
+- Ingresos: 100% comisión, metas propias, $6,300 por venta y condiciones de pago conservadas.
+- Tiempo completo: no; elección de turno matutino o vespertino.
+- Auto: no; celular, laptop y disposición para vender.
+- Ingreso al equipo: sin costo.
+- Fotografías sin repetir entre los bloques. Los logos conservan sus ubicaciones.
+- Nueva imagen ilustrativa para Ingreso por resultados.
 
-## Ajustes
-- Título «Experiencia que te respalda» encima de los cuatro contadores.
-- Arleen y la foto aportada en la pleca del comentario.
-- Comisión por venta $6,300 MXN. Una venta $6,300; dos $12,600; cuatro $25,200. Actualizado también en preguntas frecuentes.
-- Prospección: «Generas tus propios clientes».
-- Nueva imagen ilustrativa para «Tú eliges turno».
-
-Paquete completo e independiente. No incluye administrador, base de datos ni analítica. No requiere Cloudflare. Para verlo localmente, abre index.html sin mover la carpeta assets.
+Paquete completo. Se mantienen todos los ajustes de V3. No incluye administrador ni analítica y no modifica Cloudflare. Para revisarlo localmente abre index.html manteniendo juntos los archivos y assets.
